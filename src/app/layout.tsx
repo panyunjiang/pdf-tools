@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    'baidu-site-verification': 'codeva-Fk0I8hRIb6',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
