@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://pdf.aiv.yn.cn"),
   title: {
     default: 'PDF工具箱 - 免费在线PDF处理工具',
     template: '%s | PDF工具箱',
